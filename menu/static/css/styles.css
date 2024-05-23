@@ -1,0 +1,37 @@
+/* Reset some default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define styles for header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Define styles for navigation menu */
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Define styles for links */
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Define styles for main content */
+.main-content {
+    padding: 20px;
+}
+
+/* Define styles for footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}

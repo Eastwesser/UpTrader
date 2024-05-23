@@ -1,0 +1,17 @@
+<!-- templates/menu/menu_template.html -->
+<nav>
+    <ul>
+        {% for item in main_menu_items %}
+            <li>
+                <a href="{{ item.url }}">{{ item.title }}</a>
+                {% if item.children.all %}
+                    <ul>
+                        {% for child in item.children.all %}
+                            <li><a href="{{ child.url }}">{{ child.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+</nav>
